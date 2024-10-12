@@ -1,9 +1,9 @@
 #!/bin/bash
 
-# Launch example: ./script_1.sh /home/user/log N X
+# Launch example: ./script_1.sh /home/user/log X N
 LOG_DIR=$1
-THRESH_PERCENT=$2 # N
-OLD_FILES=$3 # X
+THRESH_PERCENT=$2 # X
+OLD_FILES=$3 # N
 BACKUP_DIR="./backup"
 
 if [ ! -d "$BACKUP_DIR" ]; then
