@@ -1,7 +1,7 @@
 @echo off
 
+call :cleanup
+
 :cleanup
 del /q "backup\backup_*.tar"
-goto :eof
-
-call :cleanup
+exit /b
